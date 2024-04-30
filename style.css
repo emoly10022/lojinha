@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    display: grid;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    gap: 30px; 
+    padding: 0; 
+    margin: 0 1150px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+#nav-bar {
+    background: blueviolet;
+    overflow: hidden;
+    height: 80px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px; 
+}
+
+#descricao {
+    color: black;
+}
+
+#container {
+    display: grid;
+}
+
+.foto {
+    width: 40px; 
+    margin-right: 20px;
+}
+
+.cards-master {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    width: 25vw;
+}
+
+.card img {
+    width: 100%;
+    max-width: 200px; 
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: blueviolet;
+    border: none;
+    padding: 10px;
+    border-radius: 18px;
+    height: fit-content;
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: rgb(168, 116, 218);
+    cursor: pointer;
+}
